@@ -1,0 +1,10 @@
+.today {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: var(--p-margin-m);
+}
+
+.today>h2 {
+    font-size: 30px;
+}

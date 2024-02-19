@@ -1,0 +1,43 @@
+.explore {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: var(--p-gap-m);
+    padding: var(--p-padding-m);
+    margin-top: var(--p-margin-xxl);
+}
+
+.explore>label {
+    font-size: 20px;
+}
+
+.explore>input {
+    background-color: #B60000;
+    border: none;
+    height: 25px;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.explore>input:focus {
+    outline: none;
+}
+
+.explore>select {
+    background-color: #B60000;
+    border: none;
+    height: 25px;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.explore>p {
+    font-size: 25px;
+}

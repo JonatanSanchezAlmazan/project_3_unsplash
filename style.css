@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+li {
+    list-style: none;
+}
+
+:root {
+    /* SPACING */
+    --p-margin-xs: 10px;
+    --p-margin-s: 20px;
+    --p-margin-m: 30px;
+    --p-margin-l: 40px;
+    --p-margin-xl: 50px;
+    --p-margin-xxl: 60px;
+    --p-padding-xs: 10px;
+    --p-padding-s: 20px;
+    --p-padding-m: 30px;
+    --p-padding-l: 40px;
+    --p-padding-xl: 50px;
+    --p-padding-xxl: 60px;
+    --p-gap-xs: 10px;
+    --p-gap-s: 20px;
+    --p-gap-m: 30px;
+    --p-gap-l: 40px;
+    --p-gap-xl: 50px;
+    --p-gap-xxl: 60px;
+}
