@@ -23,4 +23,5 @@ const changeClass = (element, a) => {
     });
     a.classList.remove('inactive');
     a.classList.add('active');
+
 }

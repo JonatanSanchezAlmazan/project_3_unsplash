@@ -1,7 +1,6 @@
 import { btnClean, btnSearch } from '../../utils/buttons';
 import { places } from '../../utils/random';
 import { createButtons } from '../Buttons/Buttons';
-import { Photos } from '../Photos/Photos';
 import './Explore.css'
 
 export const Explore = () => {

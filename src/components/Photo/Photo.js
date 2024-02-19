@@ -5,9 +5,6 @@ export const Photo = (photo) => {
     return `    
       <div class = "img-wrp">
         <img src = ${urls.regular} alt = ${alt_description}
-      </div>
-   
-    
-    
+      </div>    
     `
 }

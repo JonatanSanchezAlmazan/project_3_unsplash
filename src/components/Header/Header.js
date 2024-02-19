@@ -3,7 +3,6 @@ import { navLinks } from '../../utils/navLinks';
 import { renderMain } from '../../utils/renderMain';
 import { createButtons } from '../Buttons/Buttons';
 import { Link } from '../Link/Link';
-import { Photos } from '../Photos/Photos';
 import './Header.css'
 
 export const Header = () => {

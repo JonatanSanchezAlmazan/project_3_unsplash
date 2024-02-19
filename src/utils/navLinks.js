@@ -8,19 +8,8 @@ export const navLinks = [{
     {
         name: "Explorar",
         component: Explore
-    },
-    {
-        name: "Info",
-        component: ""
-    },
-    {
-        name: "Empresa",
-        component: ""
-    },
-    {
-        name: "Blog",
-        component: ""
     }
+
 
 
 

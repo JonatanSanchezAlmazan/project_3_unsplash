@@ -12,6 +12,4 @@ export const Photos = async(page, perPage, query) => {
         sectionPhotos.innerHTML += Photo(photo);
     });
     main.appendChild(sectionPhotos);
-
-
 }
