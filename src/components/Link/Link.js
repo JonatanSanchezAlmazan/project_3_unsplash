@@ -6,7 +6,7 @@ export const Link = (parentElement, link) => {
     const a = document.createElement("a");
     a.textContent = name;
     a.href = `#${name}`;
-    a.classList.add("inactive");
+    a.id = name.toLowerCase();
     li.append(a);
     a.addEventListener("click", () => {
         changeClass(parentElement, a);
@@ -18,10 +18,8 @@ export const Link = (parentElement, link) => {
 const changeClass = (element, a) => {
     element.querySelectorAll("a").forEach(link => {
         link.classList.remove('active');
-        link.classList.add('inactive');
-
     });
-    a.classList.remove('inactive');
+
     a.classList.add('active');
 
 }
